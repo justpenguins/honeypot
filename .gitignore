@@ -18,6 +18,3 @@ docker-compose.override.yml
 __pycache__/
 *.py[cod]
 *$py.class
-
-# App files
-/App/logs
