@@ -5,12 +5,7 @@ VENV/
 .env
 
 # Ignore Docker-related files (if desired)
-Dockerfile
-docker-compose.yml
 docker-compose.override.yml
-
-# Ignore logstash config
-logstash/pipeline/*.conf
 
 # Ignore IDE/editor files
 *.swp
