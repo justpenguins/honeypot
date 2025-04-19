@@ -1,0 +1,28 @@
+# Ignore Python virtual environments
+venv/
+VENV/
+.env/
+.env
+
+# Ignore Docker-related files (if desired)
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore logstash config
+logstash/pipeline/*.conf
+
+# Ignore IDE/editor files
+*.swp
+*.swo
+*.log
+.vscode/
+.idea/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# App files
+/App/logs
