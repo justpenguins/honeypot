@@ -21,3 +21,5 @@ __pycache__/
 
 # App files
 /logs
+
+dekstop.ini

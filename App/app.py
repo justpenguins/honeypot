@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Helper Functions
 
 def log_attack(data):
-    folder_path = "logs/"
+    folder_path = "/App/logs/"
     os.makedirs(folder_path, exist_ok=True)
 
     data = detect_injections(data)
