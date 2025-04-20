@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+VENV/
+.env/
+.env
+
+# Ignore Docker-related files (if desired)
+docker-compose.override.yml
+
+# Ignore IDE/editor files
+*.swp
+*.swo
+*.log
+.vscode/
+.idea/
