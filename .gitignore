@@ -13,3 +13,11 @@ docker-compose.override.yml
 *.log
 .vscode/
 .idea/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# App files
+/logs
